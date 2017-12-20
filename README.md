@@ -3,6 +3,8 @@ A simple algorithm to calculate minimum of a function using GA
 
 > By default this function calculates the minimum of **x\*sin(4.0\*x)+(1.1)\*x\*cos(2.1\*x)** in range -1023 to 1023
 
+> This function return the final population and a chart in gnuplot
+
 To compile and run in pront type 
 ```
 make
