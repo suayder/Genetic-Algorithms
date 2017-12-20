@@ -144,6 +144,7 @@ individuals mutation(individuals individ){
 individuals mutationByFlip(individuals ind){
     srand(time(NULL));
     ind.chromossome.flip(rand()%ind.chromossome.size());
+    ind.chromossome.flip(rand()%ind.chromossome.size());
     return ind;
 }
 
